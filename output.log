@@ -1,0 +1,130 @@
+Connected to Wayfire IPC.
+Outputs: DP-2(id=1 x=0) HDMI-A-2(id=3 x=2560)
+Live windows from listViews: [(11,3,"archie@marlinspike:~/wf-monad"),(15,1,"YouTube \8212 Mozilla Firefox"),(118,3,"Main.hs - wf-monad - VSCodium"),(1398,1,"\10035 Debug key press events in Wayfire IPC"),(2776,3,"archie@marlinspike:~")]
+Initial current: ws=1 screen=1 wins=[1398,15]
+  visible: ws=2 screen=3 wins=[2776,118,11]
+Window state initialized.
+Window event subscription active.
+Registered focus-next (id=94803230865552)
+Registered focus-prev (id=94803234326160)
+Registered workspace-1 (id=94803235864784)
+Registered workspace-2 (id=94803235838768)
+Registered workspace-3 (id=94803235166640)
+Registered workspace-4 (id=94803230892048)
+Registered workspace-5 (id=94803235910928)
+Registered workspace-6 (id=94803234219248)
+Registered workspace-7 (id=94803234343392)
+Registered workspace-8 (id=94803238577968)
+Registered workspace-9 (id=94803231255680)
+Registered send-to-workspace-1 (id=94803232802160)
+Registered send-to-workspace-2 (id=94803235938512)
+Registered send-to-workspace-3 (id=94803231255440)
+Registered send-to-workspace-4 (id=94803235788656)
+Registered send-to-workspace-5 (id=94803235758160)
+Registered send-to-workspace-6 (id=94803236135504)
+Registered send-to-workspace-7 (id=94803235907632)
+Registered send-to-workspace-8 (id=94803234560816)
+Registered send-to-workspace-9 (id=94803238416880)
+Payload: {"event":"view-focused","view":{"id":1398,"pid":1634910,"title":"â³ Debug key press events in Wayfire IPC","app-id":"Alacritty","base-geometry":{"x":4,"y":86,"width":2552,"height":1350},"parent":-1,"geometry":{"x":0,"y":52,"width":2560,"height":1388},"bbox":{"x":0,"y":52,"width":2560,"height":1388},"output-id":1,"output-name":"DP-2","last-focus-timestamp":372176421275705,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":15,"fullscreen":false,"minimized":false,"activated":true,"sticky":false,"wset-index":1,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+[~] Focus -> 1398 (✳ Debug key press events in Wayfire IPC)
+Payload: {"event":"output-gain-focus","output":{"id":1,"name":"DP-2","geometry":{"x":0,"y":0,"width":2560,"height":1440},"workarea":{"x":0,"y":52,"width":2560,"height":1388},"wset-index":1,"workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}}}
+[F] Output focus -> 1
+Payload: {"event":"keyboard-modifier-state-changed","state":{"possible-layouts":["English (US)"],"layout":"English (US)","layout-index":0}}
+[*] Ignored event: keyboard-modifier-state-changed
+Payload: {"event":"command-binding","binding-id":94803235166640}
+[W] Workspace -> 3
+Payload: {"event":"view-geometry-changed","old-geometry":{"x":0,"y":52,"width":2560,"height":1388},"view":{"id":1398,"pid":1634910,"title":"â³ Debug key press events in Wayfire IPC","app-id":"Alacritty","base-geometry":{"x":100004,"y":86,"width":2552,"height":1350},"parent":-1,"geometry":{"x":100000,"y":52,"width":2560,"height":1388},"bbox":{"x":100000,"y":52,"width":2560,"height":1388},"output-id":1,"output-name":"DP-2","last-focus-timestamp":372212878047251,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":15,"fullscreen":false,"minimized":false,"activated":true,"sticky":false,"wset-index":1,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"event":"view-geometry-changed","old-geometry":{"x":1073,"y":71,"width":1477,"height":1348},"view":{"id":15,"pid":1453263,"title":"YouTube â Mozilla Firefox","app-id":"firefox","base-geometry":{"x":101047,"y":48,"width":1529,"height":1400},"parent":-1,"geometry":{"x":101073,"y":71,"width":1477,"height":1348},"bbox":{"x":101047,"y":48,"width":1529,"height":1400},"output-id":1,"output-name":"DP-2","last-focus-timestamp":371492003759369,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":false,"sticky":false,"wset-index":1,"min-size":{"width":500,"height":120},"max-size":{"width":16332,"height":16332},"focusable":true,"type":"toplevel"}}
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"event":"keyboard-modifier-state-changed","state":{"possible-layouts":["English (US)"],"layout":"English (US)","layout-index":0}}
+[*] Ignored event: keyboard-modifier-state-changed
+Payload: {"event":"keyboard-modifier-state-changed","state":{"possible-layouts":["English (US)"],"layout":"English (US)","layout-index":0}}
+[*] Ignored event: keyboard-modifier-state-changed
+Payload: {"event":"command-binding","binding-id":94803235838768}
+[W] Workspace -> 2 (greedy swap)
+Payload: {"event":"view-set-output","output":{"id":3,"name":"HDMI-A-2","geometry":{"x":2560,"y":0,"width":2560,"height":1440},"workarea":{"x":0,"y":52,"width":2560,"height":1388},"wset-index":2,"workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"view":{"id":2776,"pid":1685784,"title":"archie@marlinspike:~","app-id":"Alacritty","base-geometry":{"x":100880,"y":461,"width":800,"height":600},"parent":-1,"geometry":{"x":100876,"y":427,"width":808,"height":638},"bbox":{"x":100876,"y":427,"width":808,"height":638},"output-id":1,"output-name":"DP-2","last-focus-timestamp":372162395047644,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":false,"sticky":false,"wset-index":1,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+[O] Window 2776 -> output 1
+Payload: {"event":"view-focused","view":null}
+[*] Ignored event: view-focused
+Payload: {"event":"view-wset-changed","old-wset":{"index":2,"name":"4","output-id":3,"output-name":"HDMI-A-2","workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"new-wset":{"index":1,"name":"2","output-id":1,"output-name":"DP-2","workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"view":{"id":2776,"pid":1685784,"title":"archie@marlinspike:~","app-id":"Alacritty","base-geometry":{"x":100880,"y":461,"width":800,"height":600},"parent":-1,"geometry":{"x":100876,"y":427,"width":808,"height":638},"bbox":{"x":100876,"y":427,"width":808,"height":638},"output-id":1,"output-name":"DP-2","last-focus-timestamp":372216031141181,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":true,"sticky":false,"wset-index":1,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"event":"view-set-output","output":{"id":3,"name":"HDMI-A-2","geometry":{"x":2560,"y":0,"width":2560,"height":1440},"workarea":{"x":0,"y":52,"width":2560,"height":1388},"wset-index":2,"workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"view":{"id":118,"pid":1484979,"title":"Main.hs - wf-monad - VSCodium","app-id":"codium","base-geometry":{"x":0,"y":52,"width":2560,"height":1388},"parent":-1,"geometry":{"x":0,"y":52,"width":2560,"height":1388},"bbox":{"x":0,"y":52,"width":2560,"height":1388},"output-id":1,"output-name":"DP-2","last-focus-timestamp":372162394447667,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":15,"fullscreen":false,"minimized":false,"activated":false,"sticky":false,"wset-index":1,"min-size":{"width":400,"height":270},"max-size":{"width":2147483647,"height":2147483647},"focusable":true,"type":"toplevel"}}
+[O] Window 118 -> output 1
+Payload: {"event":"view-focused","view":{"id":118,"pid":1484979,"title":"Main.hs - wf-monad - VSCodium","app-id":"codium","base-geometry":{"x":0,"y":52,"width":2560,"height":1388},"parent":-1,"geometry":{"x":0,"y":52,"width":2560,"height":1388},"bbox":{"x":0,"y":52,"width":2560,"height":1388},"output-id":1,"output-name":"DP-2","last-focus-timestamp":372162394447667,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":15,"fullscreen":false,"minimized":false,"activated":true,"sticky":false,"wset-index":1,"min-size":{"width":400,"height":270},"max-size":{"width":2147483647,"height":2147483647},"focusable":true,"type":"toplevel"}}
+[~] Focus -> 118 (Main.hs - wf-monad - VSCodium)
+Payload: {"event":"view-wset-changed","old-wset":{"index":2,"name":"4","output-id":3,"output-name":"HDMI-A-2","workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"new-wset":{"index":1,"name":"2","output-id":1,"output-name":"DP-2","workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"view":{"id":118,"pid":1484979,"title":"Main.hs - wf-monad - VSCodium","app-id":"codium","base-geometry":{"x":0,"y":52,"width":2560,"height":1388},"parent":-1,"geometry":{"x":0,"y":52,"width":2560,"height":1388},"bbox":{"x":0,"y":52,"width":2560,"height":1388},"output-id":1,"output-name":"DP-2","last-focus-timestamp":372216031341480,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":15,"fullscreen":false,"minimized":false,"activated":true,"sticky":false,"wset-index":1,"min-size":{"width":400,"height":270},"max-size":{"width":2147483647,"height":2147483647},"focusable":true,"type":"toplevel"}}
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"event":"view-set-output","output":{"id":3,"name":"HDMI-A-2","geometry":{"x":2560,"y":0,"width":2560,"height":1440},"workarea":{"x":0,"y":52,"width":2560,"height":1388},"wset-index":2,"workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"view":{"id":11,"pid":1452887,"title":"archie@marlinspike:~/wf-monad","app-id":"Alacritty","base-geometry":{"x":881,"y":191,"width":1305,"height":1013},"parent":-1,"geometry":{"x":877,"y":157,"width":1313,"height":1051},"bbox":{"x":877,"y":157,"width":1313,"height":1051},"output-id":1,"output-name":"DP-2","last-focus-timestamp":372202638023829,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":false,"sticky":false,"wset-index":1,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+[O] Window 11 -> output 1
+Payload: {"event":"view-focused","view":{"id":11,"pid":1452887,"title":"archie@marlinspike:~/wf-monad","app-id":"Alacritty","base-geometry":{"x":881,"y":191,"width":1305,"height":1013},"parent":-1,"geometry":{"x":877,"y":157,"width":1313,"height":1051},"bbox":{"x":877,"y":157,"width":1313,"height":1051},"output-id":1,"output-name":"DP-2","last-focus-timestamp":372216031487559,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":true,"sticky":false,"wset-index":1,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+[~] Focus -> 11 (archie@marlinspike:~/wf-monad)
+Payload: {"event":"view-wset-changed","old-wset":{"index":2,"name":"4","output-id":3,"output-name":"HDMI-A-2","workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"new-wset":{"index":1,"name":"2","output-id":1,"output-name":"DP-2","workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"view":{"id":11,"pid":1452887,"title":"archie@marlinspike:~/wf-monad","app-id":"Alacritty","base-geometry":{"x":881,"y":191,"width":1305,"height":1013},"parent":-1,"geometry":{"x":877,"y":157,"width":1313,"height":1051},"bbox":{"x":877,"y":157,"width":1313,"height":1051},"output-id":1,"output-name":"DP-2","last-focus-timestamp":372216031487559,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":true,"sticky":false,"wset-index":1,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"event":"plugin-activation-state-changed","plugin":"vswitch","state":true,"output":1,"output-data":{"id":1,"name":"DP-2","geometry":{"x":0,"y":0,"width":2560,"height":1440},"workarea":{"x":0,"y":52,"width":2560,"height":1388},"wset-index":1,"workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}}}
+[*] Ignored event: plugin-activation-state-changed
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"event":"keyboard-modifier-state-changed","state":{"possible-layouts":["English (US)"],"layout":"English (US)","layout-index":0}}
+[*] Ignored event: keyboard-modifier-state-changed
+Payload: {"event":"plugin-activation-state-changed","plugin":"vswitch","state":false,"output":1,"output-data":{"id":1,"name":"DP-2","geometry":{"x":0,"y":0,"width":2560,"height":1440},"workarea":{"x":0,"y":52,"width":2560,"height":1388},"wset-index":1,"workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}}}
+[*] Ignored event: plugin-activation-state-changed
+Payload: {"event":"view-focused","view":null}
+[*] Ignored event: view-focused
+Payload: {"event":"output-gain-focus","output":{"id":3,"name":"HDMI-A-2","geometry":{"x":2560,"y":0,"width":2560,"height":1440},"workarea":{"x":0,"y":52,"width":2560,"height":1388},"wset-index":2,"workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}}}
+[F] Output focus -> 3
+Payload: {"event":"view-focused","view":{"id":7,"pid":1452018,"title":"layer-shell","app-id":"gtk-layer-shell","base-geometry":{"x":0,"y":0,"width":2560,"height":1440},"parent":-1,"geometry":{"x":0,"y":0,"width":2560,"height":1440},"bbox":{"x":0,"y":0,"width":2560,"height":1440},"output-id":3,"output-name":"HDMI-A-2","last-focus-timestamp":372218087953152,"role":"desktop-environment","mapped":true,"layer":"background","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":false,"sticky":false,"wset-index":-1,"min-size":{"width":0,"height":0},"max-size":{"width":0,"height":0},"focusable":true,"type":"background"}}
+Payload: {"event":"keyboard-modifier-state-changed","state":{"possible-layouts":["English (US)"],"layout":"English (US)","layout-index":0}}
+[*] Ignored event: keyboard-modifier-state-changed
+Payload: {"event":"command-binding","binding-id":94803235864784}
+[W] Workspace -> 1
+Payload: {"event":"view-geometry-changed","old-geometry":{"x":100000,"y":52,"width":2560,"height":1388},"view":{"id":1398,"pid":1634910,"title":"â³ Debug key press events in Wayfire IPC","app-id":"Alacritty","base-geometry":{"x":4,"y":86,"width":2552,"height":1350},"parent":-1,"geometry":{"x":0,"y":52,"width":2560,"height":1388},"bbox":{"x":0,"y":52,"width":2560,"height":1388},"output-id":1,"output-name":"DP-2","last-focus-timestamp":372212878047251,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":15,"fullscreen":false,"minimized":false,"activated":false,"sticky":false,"wset-index":1,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"event":"view-geometry-changed","old-geometry":{"x":101073,"y":71,"width":1477,"height":1348},"view":{"id":15,"pid":1453263,"title":"YouTube â Mozilla Firefox","app-id":"firefox","base-geometry":{"x":1047,"y":48,"width":1529,"height":1400},"parent":-1,"geometry":{"x":1073,"y":71,"width":1477,"height":1348},"bbox":{"x":1047,"y":48,"width":1529,"height":1400},"output-id":1,"output-name":"DP-2","last-focus-timestamp":371492003759369,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":false,"sticky":false,"wset-index":1,"min-size":{"width":500,"height":120},"max-size":{"width":16332,"height":16332},"focusable":true,"type":"toplevel"}}
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"event":"view-focused","view":{"id":11,"pid":1452887,"title":"archie@marlinspike:~/wf-monad","app-id":"Alacritty","base-geometry":{"x":881,"y":191,"width":1305,"height":1013},"parent":-1,"geometry":{"x":877,"y":157,"width":1313,"height":1051},"bbox":{"x":877,"y":157,"width":1313,"height":1051},"output-id":1,"output-name":"DP-2","last-focus-timestamp":372216031487559,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":true,"sticky":false,"wset-index":1,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+[~] Focus -> 11 (archie@marlinspike:~/wf-monad)
+Payload: {"event":"output-gain-focus","output":{"id":1,"name":"DP-2","geometry":{"x":0,"y":0,"width":2560,"height":1440},"workarea":{"x":0,"y":52,"width":2560,"height":1388},"wset-index":1,"workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}}}
+[F] Output focus -> 1
+Payload: {"event":"view-focused","view":{"id":1398,"pid":1634910,"title":"â³ Debug key press events in Wayfire IPC","app-id":"Alacritty","base-geometry":{"x":4,"y":86,"width":2552,"height":1350},"parent":-1,"geometry":{"x":0,"y":52,"width":2560,"height":1388},"bbox":{"x":0,"y":52,"width":2560,"height":1388},"output-id":1,"output-name":"DP-2","last-focus-timestamp":372219765681739,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":15,"fullscreen":false,"minimized":false,"activated":true,"sticky":false,"wset-index":1,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+[~] Focus -> 1398 (✳ Debug key press events in Wayfire IPC)
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"event":"command-binding","binding-id":94803235864784}
+[W] Workspace -> 1 (greedy swap)
+Payload: {"event":"view-set-output","output":{"id":1,"name":"DP-2","geometry":{"x":0,"y":0,"width":2560,"height":1440},"workarea":{"x":0,"y":52,"width":2560,"height":1388},"wset-index":1,"workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"view":{"id":2776,"pid":1685784,"title":"archie@marlinspike:~","app-id":"Alacritty","base-geometry":{"x":100880,"y":461,"width":800,"height":600},"parent":-1,"geometry":{"x":100876,"y":427,"width":808,"height":638},"bbox":{"x":100876,"y":427,"width":808,"height":638},"output-id":3,"output-name":"HDMI-A-2","last-focus-timestamp":372216032535493,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":false,"sticky":false,"wset-index":2,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+[O] Window 2776 -> output 3
+Payload: {"event":"view-wset-changed","old-wset":{"index":1,"name":"2","output-id":1,"output-name":"DP-2","workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"new-wset":{"index":2,"name":"4","output-id":3,"output-name":"HDMI-A-2","workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"view":{"id":2776,"pid":1685784,"title":"archie@marlinspike:~","app-id":"Alacritty","base-geometry":{"x":100880,"y":461,"width":800,"height":600},"parent":-1,"geometry":{"x":100876,"y":427,"width":808,"height":638},"bbox":{"x":100876,"y":427,"width":808,"height":638},"output-id":3,"output-name":"HDMI-A-2","last-focus-timestamp":372216032535493,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":false,"sticky":false,"wset-index":2,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"event":"view-set-output","output":{"id":1,"name":"DP-2","geometry":{"x":0,"y":0,"width":2560,"height":1440},"workarea":{"x":0,"y":52,"width":2560,"height":1388},"wset-index":1,"workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"view":{"id":118,"pid":1484979,"title":"Main.hs - wf-monad - VSCodium","app-id":"codium","base-geometry":{"x":0,"y":52,"width":2560,"height":1388},"parent":-1,"geometry":{"x":0,"y":52,"width":2560,"height":1388},"bbox":{"x":0,"y":52,"width":2560,"height":1388},"output-id":3,"output-name":"HDMI-A-2","last-focus-timestamp":372216031341480,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":15,"fullscreen":false,"minimized":false,"activated":false,"sticky":false,"wset-index":2,"min-size":{"width":400,"height":270},"max-size":{"width":2147483647,"height":2147483647},"focusable":true,"type":"toplevel"}}
+[O] Window 118 -> output 3
+Payload: {"event":"view-wset-changed","old-wset":{"index":1,"name":"2","output-id":1,"output-name":"DP-2","workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"new-wset":{"index":2,"name":"4","output-id":3,"output-name":"HDMI-A-2","workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"view":{"id":118,"pid":1484979,"title":"Main.hs - wf-monad - VSCodium","app-id":"codium","base-geometry":{"x":0,"y":52,"width":2560,"height":1388},"parent":-1,"geometry":{"x":0,"y":52,"width":2560,"height":1388},"bbox":{"x":0,"y":52,"width":2560,"height":1388},"output-id":3,"output-name":"HDMI-A-2","last-focus-timestamp":372216031341480,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":15,"fullscreen":false,"minimized":false,"activated":false,"sticky":false,"wset-index":2,"min-size":{"width":400,"height":270},"max-size":{"width":2147483647,"height":2147483647},"focusable":true,"type":"toplevel"}}
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"event":"view-set-output","output":{"id":1,"name":"DP-2","geometry":{"x":0,"y":0,"width":2560,"height":1440},"workarea":{"x":0,"y":52,"width":2560,"height":1388},"wset-index":1,"workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"view":{"id":11,"pid":1452887,"title":"archie@marlinspike:~/wf-monad","app-id":"Alacritty","base-geometry":{"x":881,"y":191,"width":1305,"height":1013},"parent":-1,"geometry":{"x":877,"y":157,"width":1313,"height":1051},"bbox":{"x":877,"y":157,"width":1313,"height":1051},"output-id":3,"output-name":"HDMI-A-2","last-focus-timestamp":372216031487559,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":false,"sticky":false,"wset-index":2,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+[O] Window 11 -> output 3
+Payload: {"event":"view-wset-changed","old-wset":{"index":1,"name":"2","output-id":1,"output-name":"DP-2","workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"new-wset":{"index":2,"name":"4","output-id":3,"output-name":"HDMI-A-2","workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}},"view":{"id":11,"pid":1452887,"title":"archie@marlinspike:~/wf-monad","app-id":"Alacritty","base-geometry":{"x":881,"y":191,"width":1305,"height":1013},"parent":-1,"geometry":{"x":877,"y":157,"width":1313,"height":1051},"bbox":{"x":877,"y":157,"width":1313,"height":1051},"output-id":3,"output-name":"HDMI-A-2","last-focus-timestamp":372216031487559,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":false,"sticky":false,"wset-index":2,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"result":"ok"}
+[*] {"result":"ok"}
+Payload: {"event":"keyboard-modifier-state-changed","state":{"possible-layouts":["English (US)"],"layout":"English (US)","layout-index":0}}
+[*] Ignored event: keyboard-modifier-state-changed
+Payload: {"event":"view-focused","view":{"id":11,"pid":1452887,"title":"archie@marlinspike:~/wf-monad","app-id":"Alacritty","base-geometry":{"x":881,"y":191,"width":1305,"height":1013},"parent":-1,"geometry":{"x":877,"y":157,"width":1313,"height":1051},"bbox":{"x":877,"y":157,"width":1313,"height":1051},"output-id":3,"output-name":"HDMI-A-2","last-focus-timestamp":372216031487559,"role":"toplevel","mapped":true,"layer":"workspace","tiled-edges":0,"fullscreen":false,"minimized":false,"activated":true,"sticky":false,"wset-index":2,"min-size":{"width":2,"height":1},"max-size":{"width":0,"height":0},"focusable":true,"type":"toplevel"}}
+[~] Focus -> 11 (archie@marlinspike:~/wf-monad)
+Payload: {"event":"output-gain-focus","output":{"id":3,"name":"HDMI-A-2","geometry":{"x":2560,"y":0,"width":2560,"height":1440},"workarea":{"x":0,"y":52,"width":2560,"height":1388},"wset-index":2,"workspace":{"x":0,"y":0,"grid_width":1,"grid_height":1}}}
+[F] Output focus -> 3
+Payload: {"event":"keyboard-modifier-state-changed","state":{"possible-layouts":["English (US)"],"layout":"English (US)","layout-index":0}}
+[*] Ignored event: keyboard-modifier-state-changed
