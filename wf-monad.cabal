@@ -64,7 +64,6 @@ executable wf-monad
         Core
         Layout
         ManageHook
-        Keys
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
